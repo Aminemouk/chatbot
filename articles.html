@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="utf-8">
+<meta name="discraption" content="test number two in our formation">
+<link rel="stylesheet" href="index.css">
+<link rel="icon" href="C:\Users\bibimok\Pictures\logo minou.png">
+<title> amine shope</title>
+    </head>
+    <body>
+       
+      <center>
+       
+      <div class="hdpage">
+        <h4>Comfortable shopping</h4>
+        <h5>listes des produit</h5>
+        <h6>click on images</h6>
+      </div> </center>
+      <div class="gallery">
+       
+        <div class="column">
+          <img src="C:\Users\bibimok\Downloads\20230723_181813.png" alt="s21 ultra" width="200" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="C:\Users\bibimok\Downloads\20231030_095731.png" alt="current watch" width="200" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="C:\Users\bibimok\Downloads\20230912_064735.png" alt="flash disk hp" width="200" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="C:\Users\bibimok\Downloads\20230723_181820.png" alt="s23 ultra" width="200" onclick="myFunction(this);">
+        </div>
+  
+      </div>
+            <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:400px" height="400px">
+        <div id="imgtext"></div>
+      </div>
+     <script>
+        function myFunction(imgs) {
+          var expandImg = document.getElementById("expandedImg");
+          var imgText = document.getElementById("imgtext");
+          expandImg.src = imgs.src;
+          imgText.innerHTML = imgs.alt;
+          expandImg.parentElement.style.display = "block";
+        }
+        </script>
+        <a href="index.html"> <button class="btnhome">home</button></a>
+    </body>
+</html>

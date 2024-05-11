@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jaini+Purva&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Jaini+Purva&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Jaini+Purva&family=Poetsen+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Jaini+Purva&family=Poetsen+One&family=Protest+Revolution&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Jaini+Purva&family=Poetsen+One&family=Protest+Revolution&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+   background-image:url('file:///C:/Users/bibimok/Pictures/shope.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+}
+.acceil {
+    background-color: rgb(239, 253, 41);
+    text-align:center;
+    }
+.acceil li {
+    display: inline-block;
+    font-size:40px;
+    padding: 30px;
+}
+#titre{
+    font-family: "poetsen one";
+    font-size: 72px;
+    color:blue;
+
+}
+.logo{
+font-family: "Caveat";
+font-size: 80px;
+color: rgb(255, 255, 255);
+}
+h2{
+    font-family: "Rubik";
+}
+button{
+        transition-duration: 0.4s;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+}
+button:hover{
+    background-color: #04AA6D;
+    color: bisque;
+   }
+
+/*page n 2 login*/
+.welcome{
+    font-family: "Protest Revolution";
+    font-size: 72px;
+    text-align: center;
+}
+#inf{
+    font-family: "Protest Revolution";
+    font-size: 40 px;
+}
+label{
+    font-family: "Protest Revolution";
+    font-size: 40px;
+}
+#fname,#lname,#email{
+    font-family: "Caveat";
+    font-size: 40px;
+}
+.btnlogin{
+    transition-duration: 0.4s;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    font-family: "poetsen one";
+}
+.btnlogin:hover{
+background-color: #04AA6D;
+color: bisque;
+}
+/*articles page*/
+
+.hdpage h4{
+    font-family: "Poetsen One";
+    font-weight: 400;
+    font-size: 72px;
+    margin-top: 0px;
+    margin-bottom: 0px;   
+    
+}
+.hdpage h5{
+    font-family: "poetsen one";
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(146, 2, 2);
+}
+.hdpage{
+        background-image: linear-gradient(blue,rgb(249, 249, 253));
+      
+    }
+    .hdpage h6{
+        font-family:"andalus" ;
+        font-size: 32px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .gallery>.column{ 
+        display: inline-block;
+        padding:30px;   
+             }
+a .btnhome{
+    float: right;
+}
