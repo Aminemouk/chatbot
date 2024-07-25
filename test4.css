@@ -1,0 +1,12 @@
+#bor {
+    border: 1px solid black;
+    outline: 1px solid black;
+    outline-offset: 2px;
+    
+    
+}
+#tbl td:hover{
+    cursor: pointer;
+    font-size: x-large;
+    background-color: rgb(177, 247, 224);
+}

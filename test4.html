@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="test" content="welcome to learn devweb">
+    <title>Main page</title>
+    <link rel="icon" href="logo minou.png">
+    <link rel="stylesheet" href="test4.css">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--slogan and title of site-->
+        <center>
+            <h1 class="text-warning mt-5">HELLO TO OUR SITE</h1>
+            <img src="logo minou.png" alt="photos icon" style="width:200px">
+        </center>
+        <!--part one we have account-->
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div class="container bg-dark p-5">
+                    <input class="form-control my-3" type="text" placeholder="add your user name please!" id="inpuser">
+                    <small class="text-white">if you have user name write it</small>
+                    <input class="form-control my-3" type="password" placeholder="write your password please" id="inppass">
+                    <small class="text-white ">if you miss your password you can chang it</small>
+                    <div><button onclick="accept()" class="btn btn-success col-5 my-4 mx-4" id="log" >login</button>
+                    <button onclick="create()" class="btn btn-danger col-5" id="btncret">create new account</button>
+                    </div>
+                </div>
+            </div>
+             <!--part 2 create account-->
+            <div class="row" style="display:none" id="spart">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <!--input names-->
+                    <form action="test4page2.html">
+                    <div class="input-group mt-5">
+                    <div class="input-group-prepent">
+                        <span class="input-group-text mx-2">FIRST NAME</span>
+                    </div>
+                    <input class="form-control" type="text" placeholder="write your first name" id="fn" >
+                    <div class="input-group-prepent">
+                        <span class="input-group-text mx-2">LASTE NAME</span>
+                       
+                    </div>
+                    <input class="form-control" type="text" placeholder="write your last name" id="ln" >
+                </div>
+            </form>
+                <!--input email-->
+                <div class="input-group mt-4" >
+                    <div class="input-group-prepent">
+                        <span class="input-group-text mx-2">EMAIL</span>
+                    </div>
+                    <input class="form-control" type="email" placeholder="write your email" id="emai" >
+                </div>
+                <!--input phone and country-->
+                <div class="input-group mt-4">
+                    <div class="input-group-prepent">
+                        <span class="input-group-text mx-2">COUNTRY</span>
+                    </div>
+                    <input class="form-control" type="text" placeholder="write your country" id="pai" >
+                    <div class="input-group-prepent">
+                        <span class="input-group-text mx-2">PHONE</span>
+                    </div>
+                    <input class="form-control" type="number" placeholder="write your phone number" id="tel">
+                </div>
+                <!--input sex and age-->
+                <div class="input-group mt-4">
+                    <div class="input-group-prepent">
+                        <span class="input-group-text mx-2">SEX</span>
+                    </div>
+                    <label class="radio-inline mx-5 mt-2" id="se" >
+                        <input type="radio" name="amine" > Male
+                    </label>
+                    <label class="radio-inline mx-5 mt-2" >
+                        <input type="radio" name="amine"> Femal
+                    </label>
+                    <div class="input-group-prepent">
+                        <span class="input-group-text mx-2">Age</span>
+                    </div>
+                    <input class="form-control" type="number" placeholder="write your age" id="ag">
+                </div>
+                <!--input user name -->
+                <div class="input-group mt-4">
+                    <div class="input-group-prepent">
+                        <span class="input-group-text mx-2">USER NAME</span>
+                    </div>
+                    <input class="form-control" type="text" placeholder="write your user to in with it" id="un">
+                </div>
+                <!--input  password-->
+                <div class="input-group mt-4">
+                    <div class="input-group-prepent">
+                        <span class="input-group-text mx-2">PASSWORD</span>
+                    </div>
+                    <input class="form-control" type="password" placeholder="write your password" id="ps">
+                </div>
+                <div class="input-group mt-4">
+                    <div class="input-group-prepent">
+                        <span class="input-group-text mx-2">CONFIRMATION PASSWORD</span>
+                    </div>
+                    <input class="form-control" type="password" placeholder="rewrite your password" id="cps">
+                </div>
+                <!--input  button creat-->
+                <center>
+                <button class="btn btn-primary mt-5 " id="btncr">Create My Account</button></center>
+                               
+                </div>
+                
+                <div class="col-2"></div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+      
+
+
+
+
+
+
+
+
+        
+        <script src="test4.js"></script>
+  
+        
+    </body>
+</html>
